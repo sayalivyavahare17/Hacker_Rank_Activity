@@ -1,0 +1,69 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "request": "attach",
+            "name": "Attach by Process ID",
+            "processId": "${command:PickJavaProcess}"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "FilterLessThan",
+            "request": "launch",
+            "mainClass": "FilterLessThan",
+            "projectName": "HackerRank_8ae50d58"
+        },
+        {
+            "type": "java",
+            "name": "HelloNTimes",
+            "request": "launch",
+            "mainClass": "HelloNTimes",
+            "projectName": "HackerRank_8ae50d58"
+        },
+        {
+            "type": "java",
+            "name": "PrintHello",
+            "request": "launch",
+            "mainClass": "PrintHello",
+            "projectName": "HackerRank_8ae50d58"
+        },
+        {
+            "type": "java",
+            "name": "RemoveOddPositions",
+            "request": "launch",
+            "mainClass": "RemoveOddPositions",
+            "projectName": "HackerRank_8ae50d58"
+        },
+        {
+            "type": "java",
+            "name": "ReplicateElements",
+            "request": "launch",
+            "mainClass": "ReplicateElements",
+            "projectName": "HackerRank_8ae50d58"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "HackerRank_8ae50d58"
+        },
+        {
+            "type": "java",
+            "name": "Sum",
+            "request": "launch",
+            "mainClass": "Sum",
+            "projectName": "HackerRank_8ae50d58"
+        }
+    ]
+}
